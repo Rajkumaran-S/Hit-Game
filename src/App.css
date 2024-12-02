@@ -1,0 +1,48 @@
+
+.game {
+  text-align: center;
+  height: 500px;
+  width: 500px;
+  margin-left: 50px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-template-rows: 33% 33% 33%;
+  max-width: 300px;
+}
+
+.box {
+  border: 1px solid rgb(6, 144, 235);
+  padding: 20px;
+  cursor: pointer;
+  color: white;
+  padding-bottom: 40px;
+}
+
+.active {
+  background-color: rgb(47, 0, 255);
+}
+
+.game-over {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.game {
+  margin-left: 600px;
+}
+
+.score {
+  font-size: xx-large;
+  margin: 50px;
+  margin-right: 250px;
+  font-weight: bold;
+}
+
+.timer {
+  font-size: x-large;
+  margin: 50px;
+  margin-right: 250px;
+}
